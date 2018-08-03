@@ -62,7 +62,19 @@ return [
             'region' => env('AWS_DEFAULT_REGION'),
             'bucket' => env('AWS_BUCKET'),
         ],
+        'oss' => [
+                'driver'=> 'oss',
+                'access_id'=> 'LTAIQiEUqtAqbECU',
+                'access_key'=> 'UIAUNFN8bxrKzV9sYwAQ1BCDexe0BV ',
+                'bucket'=> 'elebmy',
+                'endpoint'=> 'oss-cn-hongkong.aliyuncs.com',
+//                'cdnDomain'=> '<CDN domain, cdn域名>',
+                'ssl'=>false,
+            'isCName'=>false,
+            'debug'=>false
+    ],
 
     ],
+
 
 ];
